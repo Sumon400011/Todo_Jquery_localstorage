@@ -1,0 +1,75 @@
+:root{
+	--white:#ffffff;
+	--purple:#A879E2;
+	--green:#2AB9BE;
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #DAE0F5;
+	font-size: 16px;
+	font-family: 'Nunito';
+	color: var(--purple);
+}
+.todo-container{
+	max-width: 800px;
+}
+.main-card{
+	max-height: 800px;
+	height: 600px;
+	background-color: #F3F3FB;
+}
+.main-card .card-heading{
+	background-color: var(--purple);
+	max-width: 100%;
+	padding: 10px 20px;
+	margin: 20px 20px;
+	color: #ffffff;
+	box-shadow: 0 1px 4px rgb(0 0 0 / 40%);
+}
+.head-title{
+	font-size: 1.5rem;
+}
+.add-icon{
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+.main-card .card.body{
+	overflow-y: auto;
+}
+
+.todo-list-container{
+	padding: 0.8rem;
+}
+.todo-title{
+	font-weight: 700;
+}
+.todo-comment{
+	font-size: 0.7rem;
+}
+.start-date, .end-date, .action-section {
+	font-size: 0.6rem;
+}
+.start-date .start-icon,
+.end-date .end-icon{
+	font-size: 0.7rem;
+	color: var(--green);
+}
+
+.remove{
+	color: red;
+}
+
+.remove, .completed{
+	cursor: pointer;
+}
+
+#itemBody{
+	overflow-y: auto;
+	padding-bottom: 20px;
+}
+
+/*Select your favorite social network and share our icons with your contacts or friends, if you do not have these social networks copy the link and paste it in the one you use. Select your favorite social network and share our icons with your contacts or friends, if you do not have these social networks copy the link and paste it in the one you use.*/
